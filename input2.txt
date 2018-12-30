@@ -1,0 +1,6 @@
+"this is quoted"
+$this has a dollar symbol
+    Right side spacing
+Left side spacing    
+__init__
+anacondas
