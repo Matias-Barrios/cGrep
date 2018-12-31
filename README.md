@@ -1,6 +1,6 @@
 ### cGrep
 
-This is a very simple clone of grep which aims to add a little bit of concurrency when more than one file is given as input since it will start a new routine for each one given to.
+This is a very simple clone of grep which aims to add a little bit of concurrency when more than one file is given as input since it will start a new routine for each one.
 
 I got the idea from a book I have been reading too ( which by the way had a different approach altogether ) but I did not base the logic on it as I wanted to make it on my own from scratch as I kind of practice in my golang skills.
 
@@ -13,7 +13,7 @@ This is functional ( insofar as the simplicity of it copes with your expectation
 **-i** It reverses the logic of the pattern matching
 **-v** Turns verbose input on ( which basically means it prints the file name and line number along with each match)
 **-R [path]** When given it will start a recursive search starting from path given prior to spawning each go routine
-**-FF [pattern]** Stands for *file filter* and matches against each file given by the recursive search basically discarding files
+**-FF [pattern]** Stands for *file filter* and matches against each file given by the recursive search; basically discarding files
 
 ### TODO
 
